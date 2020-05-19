@@ -66,6 +66,9 @@ public class PrivilegedService extends Service {
     Context context = this;
 
     private boolean hasPrivilegedPermissionsImpl() {
+        if (isDeviceOwner(getPackageName())){
+            return true;
+        }
         boolean hasInstallPermission =
                 getPackageManager().checkPermission(Manifest.permission.INSTALL_PACKAGES, getPackageName())
                         == PackageManager.PERMISSION_GRANTED;
