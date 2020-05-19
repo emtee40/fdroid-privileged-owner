@@ -206,7 +206,7 @@ public class PrivilegedService extends Service {
         }
 
         @Override
-        public boolean removeAsDeviceOwner() throws RemoteException {
+        public boolean removeAsDeviceOwner(){
             if (Build.VERSION.SDK_INT >= 24) {
                 try {
                     DevicePolicyManager dpm = (DevicePolicyManager) context.getSystemService(Context.DEVICE_POLICY_SERVICE);
@@ -294,7 +294,6 @@ public class PrivilegedService extends Service {
                 stopSelf();
             }
         }
-
         IntentFilter intentFilter = new IntentFilter();
         intentFilter.addAction(BROADCAST_ACTION_INSTALL);
         registerReceiver(
