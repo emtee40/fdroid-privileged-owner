@@ -22,6 +22,8 @@ interface IPrivilegedService {
 
     boolean hasPrivilegedPermissions();
 
+    boolean removeAsDeviceOwner();
+
     /**
      * - Docs based on PackageManager.installPackage()
      * - Asynchronous (oneway) IPC calls!
