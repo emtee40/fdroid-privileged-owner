@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">F-Droid Privileged Extension</string>
-
+    <string name="app_name">F-Droid Privileged Extension - Device Owner</string>
+    <string name="device_owner_desc">This Privileged Extension can be set as an Android Device Owner (an enterprise feature for managing devices) to allow background app installation and upgrade. This cannot be done from the device but must be set using the Android debug bridge (<b>adb</b>) from a computer. Additionally this can only be done when <b>no accounts</b> are registered in the system. If you want to use this, you will have to remove all your accounts in <b>Settings -> Users &amp; accounts</b>, run the command below and setup your accounts again with their respective apps.\n\nThe command to set device owner mode is (as a single line):</string>
+    <string name="remove_device_owner">Remove Device Owner</string>
+    <string name="is_not_device_owner">Extension is not set up as Device Owner</string>
+    <string name="device_owner_command">adb shell dpm set-device-owner %1s/%2s</string>
+    <string name="removal_warning">Do you really want to remove \"%s\" as Device Owner? This can only be undone by following the setup instructions again.</string>
+    <string name="removal_warning_title">Remove Device Owner</string>
+    <string name="device_owner_not_set">Device Owner not set</string>
 </resources>

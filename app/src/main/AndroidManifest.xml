@@ -5,10 +5,6 @@
     android:versionCode="2110"
     android:versionName="0.2.11">
 
-    <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="25" />
-
     <!-- These permissions are only granted when this apk is installed as a privileged app! -->
     <uses-permission
         android:name="android.permission.INSTALL_PACKAGES"
@@ -23,6 +19,14 @@
         android:label="@string/app_name"
         tools:ignore="GoogleAppIndexingWarning">
 
+
+        <activity android:name=".ui.SettingsActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
         <service
             android:name=".PrivilegedService"
             android:enabled="true"
@@ -34,7 +38,7 @@
             </intent-filter>
         </service>
         <receiver
-            android:name=".DeviceAdminReceiver"
+            android:name="org.fdroid.DeviceAdminReceiver"
             android:description="@string/app_name"
             android:label="@string/app_name"
             android:permission="android.permission.BIND_DEVICE_ADMIN">

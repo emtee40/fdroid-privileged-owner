@@ -206,21 +206,6 @@ public class PrivilegedService extends Service {
         }
 
         @Override
-        public boolean removeAsDeviceOwner(){
-            if (Build.VERSION.SDK_INT >= 24) {
-                try {
-                    DevicePolicyManager dpm = (DevicePolicyManager) context.getSystemService(Context.DEVICE_POLICY_SERVICE);
-                    dpm.clearDeviceOwnerApp(context.getPackageName());
-                }
-                catch (SecurityException e){
-                    Log.e(TAG, "Couldn't remove device owner!", e);
-                    return false;
-                }
-            }
-            return true;
-        }
-
-        @Override
         public void installPackage(Uri packageURI, int flags, String installerPackageName,
                                    IPrivilegedCallback callback) {
             if (!accessProtectionHelper.isCallerAllowed()) {
