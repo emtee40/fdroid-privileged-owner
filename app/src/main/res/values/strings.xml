@@ -9,4 +9,6 @@
     <string name="removal_warning">Do you really want to remove \"%s\" as Device Owner? This can only be undone by following the setup instructions again.</string>
     <string name="removal_warning_title">Remove Device Owner</string>
     <string name="device_owner_not_set">Device Owner not set</string>
+    <string name="dpm_not_found">Can\'t access DevicePolicyManager</string>
+
 </resources>
