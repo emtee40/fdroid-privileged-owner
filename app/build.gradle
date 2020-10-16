@@ -39,7 +39,7 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        applicationId "org.fdroid.fdroid.privileged.do"
+        applicationId "eu.bubu1.privext"
         targetSdkVersion 29
         archivesBaseName = "F-DroidPrivilegedExtension"
         versionName getVersionName()
