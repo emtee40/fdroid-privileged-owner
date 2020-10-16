@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="org.fdroid.fdroid.privileged"
-    android:versionCode="2110"
-    android:versionName="0.2.11">
+    android:versionCode="2110">
 
     <!-- These permissions are only granted when this apk is installed as a privileged app! -->
     <uses-permission
@@ -22,7 +21,8 @@
         <activity
             android:name=".ui.UnregisterDialog"
             android:exported="true"
-            android:theme="@android:style/Theme.Material.Light.Dialog.Alert"/>
+            android:theme="@android:style/Theme.Material.Light.Dialog.Alert"
+            tools:targetApi="lollipop" />
 
         <service
             android:name=".PrivilegedService"

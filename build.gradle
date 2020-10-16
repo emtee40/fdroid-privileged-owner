@@ -6,6 +6,6 @@ buildscript {
     }
     dependencies {
         // 2.2.2 is the version that is included in Debian/stretch
-        classpath 'com.android.tools.build:gradle:3.6.3'
+        classpath 'com.android.tools.build:gradle:4.1.0'
     }
 }
