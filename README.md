@@ -1,3 +1,5 @@
+[![Translation status](https://weblate.bubu1.eu/widgets/f-droid-classic/-/privext/svg-badge.svg)](https://weblate.bubu1.eu/engage/f-droid-classic/)
+
 # F-Droid Privileged Extension
 
 This enables F-Droid to install and delete apps without needing "Unknown Sources" to be enabled (e.g. just like Google Play does).
