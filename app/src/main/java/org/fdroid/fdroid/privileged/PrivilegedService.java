@@ -234,12 +234,20 @@ public class PrivilegedService extends Service {
                  * The client app used to set this to F-Droid, but we need it to be set to
                  * this package's package name to be able to uninstall from here.
                  */
-                pm.setInstallerPackageName(packageName, getPackageName());
+                try{
+                    pm.setInstallerPackageName(packageName, getPackageName());
+                }
+                catch (SecurityException e)
+                {
+                    // This will fail when the user switches to a different privext.
+                    // There's nothing we can do about this here.
+                    // Uninstall needs to use the non-privileged method instead which isn't that bad.
+                }
                 // Create a PendingIntent and use it to generate the IntentSender
                 Intent broadcastIntent = new Intent(BROADCAST_ACTION_UNINSTALL);
                 PendingIntent pendingIntent = PendingIntent.getBroadcast(
                         context, // context
-                        0, // arbitary
+                        0, // arbitrary
                         broadcastIntent,
                         PendingIntent.FLAG_UPDATE_CURRENT);
                 packageInstaller.uninstall(packageName, pendingIntent.getIntentSender());
