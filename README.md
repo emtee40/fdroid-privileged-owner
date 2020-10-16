@@ -4,7 +4,7 @@ This is a fork of [F-Droid Privileged Extension](https://gitlab.com/fdroid/privi
 
 It allows being installed as [Device Owner](https://www.sisik.eu/blog/android/dev-admin/set-dev-owner) instead of a system app and works with [F-Droid Classic](https://gitlab.com/Bubu/fdroidclassic) as well [F-Droid Client](https://gitlab.com/fdroid/fdroidclient/)
 
-Original Readme. Possibly somewhat inaccurate at the moment:
+Original Readme follows. Possibly somewhat inaccurate at the moment:
 
 # F-Droid Privileged Extension
 
