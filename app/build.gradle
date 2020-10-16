@@ -36,6 +36,7 @@ dependencies {
 }
 
 android {
+
     compileSdkVersion 30
 
     defaultConfig {
@@ -45,7 +46,7 @@ android {
         versionName getVersionName()
 
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
-        minSdkVersion 8
+        minSdkVersion 14
     }
 
     compileOptions {
