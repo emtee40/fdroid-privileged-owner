@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">Privilegia F-Droid-aldonaĵo</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Privilegia F-Droid-aldonaĵo - posedanto de aparato</string>
+    <string name="removal_warning_title">Forigi posedanton de aparato</string>
+    <string name="removal_warning">Ĉu vi certe volas forigi “%s” de esti posedanto de aparato. VI povos malfari tiun ĉi agon nur per denove sekvi instrukcion de instalo.</string>
 </resources>
