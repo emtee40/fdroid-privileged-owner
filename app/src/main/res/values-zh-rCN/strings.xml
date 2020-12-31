@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">F-Droid 特权扩展</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">F-Droid 特权扩展 - 设备所有者</string>
+    <string name="removal_warning_title">移除设备所有者</string>
+    <string name="removal_warning">你真的想删除作为设备所有者的“%s”吗\? 要撤销这个，你只能再次按照安装说明操作。</string>
 </resources>
