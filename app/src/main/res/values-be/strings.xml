@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources><string name="app_name">Пашырэнне F-Droid</string>
-
+<resources>
+    <string name="app_name">Пашырэнне F-Droid</string>
+    <string name="removal_warning_title">Выдаліце ўладальніка прылады</string>
+    <string name="removal_warning">Вы сапраўды хочаце выдаліць \"%s\" як уладальніка прылады\? Гэта можна адмяніць, толькі паўторна выконваючы інструкцыі па наладзе.</string>
 </resources>
