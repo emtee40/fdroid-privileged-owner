@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">"Dôveryhodné  rozšírenie F-Droi"</string>
+    <string name="app_name">Privilegované rozšírenie F-Droid - vlastník zariadenia</string>
+    <string name="removal_warning_title">Odstrániť vlastníka zariadenia</string>
+    <string name="removal_warning">Naozaj chcete odstrániť „%s“ ako vlastníka zariadenia\? Túto akciu je možné vrátiť iba opätovným vykonaním pokynov na nastavenie.</string>
 </resources>
