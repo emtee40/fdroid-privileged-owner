@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">F-Droid Privileged Extension</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">F-Droid Privileged Extension</string>
+    <string name="removal_warning_title">Rimuovere il proprietario del dispositivo</string>
+    <string name="removal_warning">Vuoi davvero rimuovere \"%s\" come proprietario del dispositivo\? Questo può essere annullato solo seguendo di nuovo le istruzioni di configurazione.</string>
 </resources>
