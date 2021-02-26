@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">F-Droid - permisos de sistema</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">F-Droid - permisos de sistema</string>
+    <string name="removal_warning_title">Eliminar Propietario Del Dispositivo</string>
+    <string name="removal_warning">¿Realmente desea eliminar \"%s \" como propietario del dispositivo\? Esto solo se puede deshacer siguiendo las instrucciones de configuración de nuevo.</string>
 </resources>
