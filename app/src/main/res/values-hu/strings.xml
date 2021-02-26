@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">F-Droid privilegizált kit.</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">F-Droid Privilegizált Kiterjesztés-Eszköz Tulajdonosa</string>
+    <string name="removal_warning_title">Eszköz Tulajdonosának Eltávolítása</string>
+    <string name="removal_warning">Tényleg el akarja távolítani a\" %s \" - T Eszköztulajdonosként\? Ezt csak a telepítési utasítások ismételt követésével lehet visszavonni.</string>
 </resources>
