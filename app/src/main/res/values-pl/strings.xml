@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">Uprzywilejowany dodatek FDroid</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Uprzywilejowany dodatek FDroid</string>
+    <string name="removal_warning_title">Usuń właściciela urządzenia</string>
+    <string name="removal_warning">Czy naprawdę chcesz usunąć \"%s\" jako właściciela urządzenia\? Można to cofnąć tylko poprzez ponowne wykonanie instrukcji konfiguracji.</string>
 </resources>
