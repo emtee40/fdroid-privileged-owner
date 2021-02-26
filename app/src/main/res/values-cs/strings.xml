@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">Důvěryhodné rozšíření F-Droid</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Důvěryhodné rozšíření F-Droid</string>
+    <string name="removal_warning_title">Odebrat Vlastníka Zařízení</string>
+    <string name="removal_warning">Opravdu chcete odstranit \"%s \" jako vlastníka zařízení\? To lze vrátit zpět pouze podle pokynů k nastavení znovu.</string>
 </resources>
