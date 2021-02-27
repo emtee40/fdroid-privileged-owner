@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">F-Droid Ypatingasis papildymas</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">F-Droid Ypatingasis papildymas</string>
+    <string name="removal_warning_title">Pašalinti Įrenginio Savininką</string>
+    <string name="removal_warning">Ar tikrai norite pašalinti\" %s \" kaip įrenginio savininką\? Tai gali būti atšauktas tik po sąrankos instrukcijas dar kartą.</string>
 </resources>
