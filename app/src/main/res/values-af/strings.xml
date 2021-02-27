@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">F-Droid Voorreg Uitbreiding</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">F-Droid Voorreg Uitbreiding</string>
+    <string name="removal_warning_title">Verwyder Toestel Eienaar</string>
+    <string name="removal_warning">Wil jy regtig om te verwyder \"%s\" as Toestel Eienaar\? Dit kan net ongedaan gemaak word deur die volgende instruksies weer.</string>
 </resources>
