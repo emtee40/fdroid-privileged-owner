@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="app_name">F-Droid Ayrıcalıklı Uzantı</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">F-Droid Ayrıcalıklı Uzantı</string>
+    <string name="removal_warning_title">Aygıt Sahibini Kaldır</string>
+    <string name="removal_warning">Gerçekten Cihaz sahibi olarak \"%s \" kaldırmak istiyor musunuz\? Bu, yalnızca kurulum yönergelerini yeniden izleyerek geri alınabilir.</string>
 </resources>
