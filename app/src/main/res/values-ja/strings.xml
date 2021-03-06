@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">F-Droidの特権拡張機能</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">F-Droidの特権拡張機能</string>
+    <string name="removal_warning_title">デバイス所有者を削除する</string>
+    <string name="removal_warning">デバイス所有者としての \"%s\" 本当に削除しますか？ これは、セットアップ手順を再度実行することによってのみ元に戻すことができます。</string>
 </resources>
