@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Extension F-Droid đc cấp quyền</string>
-    <string name="removal_warning_title">Bỏ Chủ Sở Hữu Thiết Bị</string>
-    <string name="removal_warning">Bạn có thực sự muốn bỏ \"%s\" như Bị sở Hữu\? Này, chỉ có thể được hoàn tác bằng cách làm theo hướng dẫn cài đặt một lần nữa.</string>
+    <string name="app_name">Phần mở rộng F-Droid được cấp quyền - Chủ sở hữu thiết bị</string>
+    <string name="removal_warning_title">Xoá chủ sở hữu thiết bị</string>
+    <string name="removal_warning">Bạn có thực sự muốn xoá \"%s\" đang là chủ sở hữu thiết bị\? Điều này chỉ có thể được hoàn tác bằng cách làm theo hướng dẫn cài đặt một lần nữa.</string>
 </resources>
