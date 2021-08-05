@@ -4,6 +4,10 @@ This is a fork of [F-Droid Privileged Extension](https://gitlab.com/fdroid/privi
 
 It allows being installed as [Device Owner](https://www.sisik.eu/blog/android/dev-admin/set-dev-owner) instead of a system app and works with [F-Droid Classic](https://gitlab.com/Bubu/fdroidclassic) as well [F-Droid Client](https://gitlab.com/fdroid/fdroidclient/)
 
+**Installation:** (WiP to make this better) https://gbatemp.net/threads/android-f-droid-classic-and-the-new-privileged-extension.583129/
+
+**Uninstall:** `adb shell am start -n eu.bubu1.privext/org.fdroid.fdroid.privileged.ui.UnregisterDialog` and confirm the dialog that opens on the device.
+
 Original Readme follows. Possibly somewhat inaccurate at the moment:
 
 # F-Droid Privileged Extension
