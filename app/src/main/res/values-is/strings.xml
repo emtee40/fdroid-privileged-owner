@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">F-Droid forgangsviðbótin</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">F-Droid forgangsviðbótin</string>
+    <string name="removal_warning_title">jarlægðu eiganda tækisins</string>
+    <string name="removal_warning">Viltu virkilega fjarlægja „%s“ sem tækiseiganda\? Aðeins er hægt að afturkalla þetta með því að fylgja uppsetningarleiðbeiningunum aftur.</string>
 </resources>

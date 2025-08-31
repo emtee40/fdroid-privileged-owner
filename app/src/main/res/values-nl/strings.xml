@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">F-Droid-systeemrechtenextensie</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">F-Droid-systeemrechtenextensie</string>
+    <string name="removal_warning_title">Verwijder Apparaat Eigenaar</string>
+    <string name="removal_warning">Wilt u echt \"%s\" als Apparaateigenaar verwijderen\? Dit kan alleen ongedaan worden gemaakt door de installatie-instructies opnieuw te volgen.</string>
 </resources>

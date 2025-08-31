@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Zgjerim F-Droid i Privilegjuar</string>
+    <string name="removal_warning_title">Pronari I Dispozitivit</string>
+    <string name="removal_warning">Me të vërtetë dëshironi të heqni \"%s\" si Pronar I Dispozitivit\? Kjo mund të anullohet vetëm duke ndjekur udhëzimet e instalimit përsëri.</string>
 </resources>

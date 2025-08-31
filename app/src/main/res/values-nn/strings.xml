@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Utvida løyve for F-Droid</string>
+    <string name="removal_warning_title">Fjern Enheten Eier</string>
+    <string name="removal_warning">Tror du virkelig ønsker å slette \"%s\" som Enhet Eieren\? Dette kan kun gjøres om ved å følge instruksjoner om oppsett på nytt.</string>
 </resources>

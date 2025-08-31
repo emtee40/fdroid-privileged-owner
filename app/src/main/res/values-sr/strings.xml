@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Повлашћено проширење Ф-дроида</string>
+    <string name="removal_warning_title">Уклоните власника уређаја</string>
+    <string name="removal_warning">Да ли заиста желите да уклоните \"%s\" као власника уређаја\? То се може учинити само ако поново следите упутства за подешавање.</string>
 </resources>

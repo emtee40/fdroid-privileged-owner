@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">Вище розширення F-Droid</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Привілейоване розширення F-Droid - власник пристрою</string>
+    <string name="removal_warning_title">Видалити власника пристрою</string>
+    <string name="removal_warning">Ви дійсно хочете видалити «%s» як власника пристрою\? Це можна повторно налаштувати дотримуючись інструкцій з налаштування.</string>
 </resources>

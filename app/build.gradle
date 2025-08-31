@@ -11,17 +11,6 @@ def getVersionName = { ->
     return stdout.toString().trim()
 }
 
-gradle.allprojects {
-    ext.getVersionCode = { ->
-        def manifestFile = file("app/src/main/AndroidManifest.xml")
-        def pattern = Pattern.compile("versionCode=\"(\\d+)\"")
-        def manifestText = manifestFile.getText()
-        def matcher = pattern.matcher(manifestText)
-        matcher.find()
-        return Integer.parseInt(matcher.group(1))
-    }
-}
-
 repositories {
     google()
     jcenter()
@@ -36,6 +25,7 @@ dependencies {
 }
 
 android {
+
     compileSdkVersion 30
 
     defaultConfig {
@@ -43,9 +33,10 @@ android {
         targetSdkVersion 30
         archivesBaseName = "F-DroidPrivilegedExtension"
         versionName getVersionName()
+        versionCode 3000
 
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
-        minSdkVersion 8
+        minSdkVersion 14
     }
 
     compileOptions {

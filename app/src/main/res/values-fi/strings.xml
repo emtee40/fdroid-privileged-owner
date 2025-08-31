@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">F-Droid Privileged -laajennus</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">F-Droid Privileged -laajennus</string>
+    <string name="removal_warning_title">Poista Laitteen Omistaja</string>
+    <string name="removal_warning">Haluatko todella poistaa ”%s” laitteen omistajana\? Tämä voidaan poistaa vain noudattamalla asennusohjeita uudelleen.</string>
 </resources>

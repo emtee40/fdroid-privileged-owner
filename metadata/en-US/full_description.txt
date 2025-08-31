@@ -1,0 +1,9 @@
+<b>This app is only useful when set as Device Owner through adb. Documentation for this will be available soon.</b>
+
+This enables F-Droid to install and delete apps without needing "Unknown Sources" to be enabled (e.g. just like Google Play does).
+It also enables F-Droid to install updates in the background without the user having to click "install".
+
+This privileged extension currently works with the following clients:
+
+* F-Droid Classic
+* F-Droid

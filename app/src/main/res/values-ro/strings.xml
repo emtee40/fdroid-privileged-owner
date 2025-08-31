@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">Extensie privilegiata F-Droid</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Extensie privilegiata F-Droid</string>
+    <string name="removal_warning_title">Eliminați proprietarul dispozitivului</string>
+    <string name="removal_warning">Sigur doriți să eliminați „%s” ca proprietar de dispozitiv\? Acest lucru poate fi anulat numai urmând din nou instrucțiunile de configurare.</string>
 </resources>

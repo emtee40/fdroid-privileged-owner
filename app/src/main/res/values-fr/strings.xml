@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">F-Droid Extension des Droits</string>
+    <string name="app_name">Extension F-Droid privilège</string>
+    <string name="removal_warning_title">Retirer le propriétaire de l\'appareil</string>
+    <string name="removal_warning">Voulez-vous vraiment retirer « %s » en tant que propriétaire de l\'appareil \? Ceci ne peut être annulé qu\'en suivant à nouveau les instructions de configuration.</string>
 </resources>

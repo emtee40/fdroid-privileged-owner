@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="app_name">Extensão privilegiada F-Droid</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Extensão privilegiada F-Droid</string>
+    <string name="removal_warning_title">Remover Proprietário do Dispositivo</string>
+    <string name="removal_warning">Quer realmente remover \"%s\" como Proprietário do Dispositivo\? Isto só pode ser desfeito se seguir novamente as instruções de configuração.</string>
 </resources>

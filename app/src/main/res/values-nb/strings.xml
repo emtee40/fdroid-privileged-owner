@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">F-Droid-rettighetsutvidelse</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">F-Droid-rettighetsutvidelse</string>
+    <string name="removal_warning">Ønsker du virkelig å fjerne «%s» som enhetseier\? Dekke kan kun angres ved å følge oppsettsinstruksen igjen.</string>
+    <string name="removal_warning_title">Fjern enhetseier</string>
 </resources>

@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">F-Droid Privileged laiendus</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">F-Droid Privileged laiendus</string>
+    <string name="removal_warning">Kas soovite seadme \"%s\" tõepoolest seadme omanikuna eemaldada\? Seda saab tagasi võtta ainult uuesti seadistamisjuhiste järgimisega.</string>
+    <string name="removal_warning_title">Eemaldage seadme omanik</string>
 </resources>

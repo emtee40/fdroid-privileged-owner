@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="app_name">Pribilegiodun F-Droid Luzapena</string>
-
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pribilegiodun F-Droid Luzapena</string>
+    <string name="removal_warning_title">Gailua Kendu Jabea</string>
+    <string name="removal_warning">Ez duzu benetan kendu nahi \"%s\" bezala Gailu Jabeak\? Hau baino ezin da desegin jarraituz konfigurazio-argibideak berriro.</string>
 </resources>
